@@ -1,0 +1,83 @@
+/* products */
+.productsItems {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.pItem {
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    width: 270px;
+    height: 310px;
+    padding: .7rem;
+    position: relative;
+    background-color: rgb(227, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.pImg {
+    width: 100%;
+    z-index: 3;
+}
+
+.pBg {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: white;
+    z-index: 2;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .2;
+    z-index: 4;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.background:hover {
+    opacity: 0;
+}
+
+.pItemBtn {
+
+    position: absolute;
+    left: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    bottom: 1rem;
+
+}
+
+.pcBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    border: none;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.pcBtn:hover {
+    background: rgb(155 234 150);
+
+}

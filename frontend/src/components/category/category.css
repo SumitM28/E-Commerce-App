@@ -1,0 +1,59 @@
+.category{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+   
+}
+.cTitle{
+    display: block;
+    
+}
+.cItems{
+    width: 30%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cItems:hover{
+
+    cursor: pointer;
+    transform: scale(1.1) ;
+    transition:transform .3s;
+}
+.cItemImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cItemTitle,.cItemBtn{
+    position: absolute;
+}
+.cItemTitle{
+    font:500 ;
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+.cItemBtn{
+    top: 16rem;
+    padding: 4px 6px;
+    font-size: 1.5rem;
+    background: white;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.cItemBtn:hover{
+    background: wheat;
+    transition: background .3s;
+    opacity: 100;
+}

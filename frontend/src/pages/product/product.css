@@ -1,0 +1,128 @@
+.productContainer{
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+}
+
+.ProductImg{
+    flex: 2;
+    object-fit: revert;
+    height: 35rem;
+}
+
+.productInfo{
+    flex: 3;
+}
+
+.productTitle{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+.productDesc{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.8rem;
+}
+.productPrice{
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+
+.productColorSize{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.productColor{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.productColor span{
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.productColor div{
+    display: flex;
+    gap: .3rem;
+}
+
+.colorBtn{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.colorBtn:hover{
+    border: 2px solid black;
+    transition: all .3s;
+}
+
+.productSize{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.productSize span{
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.sizeOption{
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.sizeOption option{
+    font-size: 1rem;
+}
+.productCartInfo{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    
+}
+.productCartItems{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
+
+.pCIBtn{
+    font-size: 1.6rem;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.pCIBtn:hover{
+    opacity: .8;
+}
+.pCItemNO{
+    border: 2px solid rgb(139 216 134) ;
+    padding: .2rem .4rem;
+    border-radius: 8px;
+}
+.addToCart{
+    font-size: 1rem;
+    padding: 0.7rem;
+    text-transform: uppercase;
+    border: 2px solid rgb(139 216 134);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addToCart:hover{
+    border-color:rgb(52, 225, 40) ;
+    transition: all .3s
+}

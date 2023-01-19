@@ -1,0 +1,18 @@
+.announcement{
+    background-color: rgb(49, 233, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    position: relative;
+}
+.aContainer{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.closeAnnounce{
+    position: absolute;
+    right: 1rem;
+    cursor: pointer;
+}

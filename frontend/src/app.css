@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.section {
+    padding: 4rem 2rem;
+}
+
+.sectionTitle {
+    text-align: center;
+    margin: 1rem 0px;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+/* form */
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.formContainer {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50vh;
+    border-radius: 10px;
+}
+
+.fTitle {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.fInput {
+    height: 2rem;
+    padding: .2rem .4rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.fBTN {
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background: white;
+}
+
+.rBTN:hover {
+    background-color: antiquewhite;
+    transition: all .3s;
+}
+
+.formLink {
+    cursor: pointer;
+    /* text-transform: capitalize; */
+
+}
+
+@media screen and (max-width:1120px) {
+    .sInfoContainerHeading {
+        font-size: 3.5rem;
+    }
+
+    .sInfoContainerDes {
+        font-size: 1.5rem;
+    }
+
+    .sArrowBtn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.4rem;
+    }
+
+    .newletter {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width:928px) {
+    .sInfoContainerHeading {
+        font-size: 3rem;
+    }
+
+    .sInfoContainerDes {
+        font-size: 1.3rem;
+    }
+
+    .cItemTitle {
+        font-size: 2rem;
+    }
+
+    .nlHeading {
+        font-size: 4rem;
+    }
+
+    .nldecs {
+        font-size: 1.5rem;
+    }
+
+    .sImageContainer img {
+        width: 90%;
+        margin: 0 0 0 4rem;
+    }
+
+    .category {
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .cItems {
+        width: 36%;
+    }
+
+    .products {
+        margin-top: -1rem;
+    }
+
+    .nlHeading {
+        font-size: 3.5rem;
+    }
+
+    .sInfoContainerBtn {
+        font-size: .9rem;
+    }
+
+    .newletter {
+        height: 35vh;
+    }
+
+    .productContainer {
+
+        flex-direction: column;
+    }
+
+    .ProductImg {
+        flex: min-content;
+        width: 23rem;
+        margin: auto;
+    }
+
+    productPrice {
+        display: flex;
+        margin: auto;
+    }
+
+    .addToCart {
+        display: flex;
+        font-size: .8rem;
+        margin: auto;
+    }
+
+    .cartInfo {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .fContainer {
+        row-gap: 1rem;
+        column-gap: 3rem;
+    }
+
+    .fSIcon {
+        width: 36px;
+    }
+
+    .sectionTitle {
+
+        font-size: 2.5rem;
+
+    }
+}
+
+@media screen and (max-width:730px) {
+    .sWrapper {
+
+        flex-direction: column;
+
+    }
+
+    .sImageContainer img {
+        width: 40%;
+        display: flex;
+        margin: auto;
+    }
+
+    .sInfoContainer {
+
+        padding: 50px;
+        display: flex;
+        flex: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sInfoContainerHeading,
+    .sInfoContainerDes {
+        text-align: center;
+    }
+
+    .sInfoContainerDes {
+        font-size: 1.2rem;
+
+        margin: auto;
+        width: fit-content;
+    }
+
+    .cartLinks {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cartWishlist {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .category {
+        flex-direction: column;
+    }
+
+    .cItems {
+        width: 90%;
+    }
+
+    .fContainer {
+        justify-content: flex-start;
+    }
+
+    .pInfo {
+
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .pTitle {
+        text-align: center;
+    }
+
+    .cartItem {
+        flex-direction: column;
+    }
+
+    .CartPrice {
+        margin: 0;
+    }
+
+    .cartProductDetails {
+        align-items: center;
+        margin: 0;
+    }
+
+    .productPrice {
+        font-size: 2rem !important;
+        margin-bottom: 1rem !important;
+    }
+
+    .deleteItem {
+        right: -11rem !important;
+        bottom: 1.2rem !important;
+    }
+    .cartItem{
+        margin: 1rem 0 0 0;
+    }
+    .cartProductDetails{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:555px) {
+    .sInfoContainerHeading {
+        font-size: 2rem;
+    }
+
+    .sInfoContainerDes {
+        font-size: 1rem;
+
+    }
+
+    .nlHeading {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .nldecs {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .nlInputInfo {
+        width: 21rem;
+    }
+
+    .sectionTitle {
+
+        font-size: 2rem;
+
+    }
+
+    .navLogo {
+        font-size: 1.5rem;
+    }
+
+    .navContainer {
+        padding: 0px 2rem;
+    }
+    .deleteItem {
+        right: -8rem !important;
+        bottom: 1.2rem !important;
+    }
+}
+
+@media screen and (max-width:444px) {
+    .sInfoContainerHeading {
+        font-size: 1.7rem;
+    }
+
+    .sArrowBtn {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .sInfoContainerBtn {
+        font-size: .8rem;
+    }
+
+    .fContainer {
+        flex-direction: column;
+    }
+
+    .ProductImg,
+    .fDesc,
+    .fcItemDesc {
+
+        width: 20rem;
+    }
+
+    .formContainer {
+        width: 37vh;
+
+    }
+
+    .fLogo {
+        font-size: 2rem;
+    }
+    .deleteItem {
+        right: -6rem !important;
+        bottom: 1.2rem !important;
+    }
+}
+
+@media screen and (max-width:388px) {
+    .fContainer {
+        flex-direction: column;
+
+    }
+
+    .fDesc {
+        width: 20rem;
+
+    }
+
+    .fDesc {
+        color: gray;
+        margin: 2rem 0;
+        font-size: 1.1rem;
+        width: 15rem;
+    }
+
+    .fcItemDesc {
+
+        width: 20rem;
+    }
+
+    .navContainer {
+        padding: 0px 1rem;
+    }
+    .deleteItem {
+        right: -5rem !important;
+        bottom: 1.2rem !important;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .fContainer {
+        flex-direction: column;
+
+    }
+
+    .fDesc,
+    .fcItemDesc,
+    .nldecs {
+        width: 15rem;
+    }
+
+    .aContainer {
+        font-size: .7rem;
+
+    }
+
+    .closeAnnounce {
+        font-size: .8rem;
+    }
+
+    .nlInputInfo {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 5.5rem;
+        width: auto;
+    }
+
+    .nlInput {
+        height: 12rem;
+        width: 16rem;
+        padding: 5px 10px;
+        font-size: 1rem;
+        outline: none;
+        border: 1px solid gray;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 1rem;
+    }
+
+    .nldecs {
+        margin-bottom: 1rem;
+    }
+
+    .nlBtn {
+
+        border-radius: 5px;
+
+    }
+
+    .formContainer {
+        width: 35vh;
+
+    }
+
+}

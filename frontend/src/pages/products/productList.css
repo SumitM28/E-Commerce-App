@@ -1,0 +1,30 @@
+.pTitle{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.pInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.pFilter,.pSort{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.pFilter span,.pSort span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+#optionSection{
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#optionSection option{
+    font-size: 1rem;
+}
+

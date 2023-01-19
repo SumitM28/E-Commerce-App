@@ -1,0 +1,167 @@
+.cart{
+    padding-top:1.5rem ;
+}
+.cContainer{
+   width: 100%;
+}
+.cTitle{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.cartLinks{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.cartWishlist{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    
+}
+.cartWishlist button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #000;
+    font-weight: 400;
+    cursor: pointer;
+}
+.cartWishlist button:hover{
+    opacity: .7;
+}
+
+
+.shoppingBtn, .checkoutBtn{
+    font-size: 1.3rem;
+    background: none;
+    padding: 0.3rem 0.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.shoppingBtn:hover{
+    color: white;
+    background: #000;
+}
+.checkoutBtn{
+    background-color: #000;
+    color: white;
+}
+
+.cartInfo{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.cartItems{
+    flex: 3;
+}
+.cartItem{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+}
+.cartproductImg{
+    width: 200px;
+    flex: 1;
+    object-fit: contain;
+}
+
+.cartProductDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex:3;
+    margin-left: 1rem;
+}
+.cartProductDetails h1{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gray;
+}
+.cartProductDetails div{
+    width: 20px;
+    height: 20px;
+
+    border-radius:50% ;
+}
+.cartProductPrice{
+    flex: 1;
+}
+
+.CartPrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    margin-right: 1rem;
+}
+.productsummary{
+    border: 1px solid gainsboro;
+    flex: 1;
+    border-radius:20px ;
+    height:max-content;
+    padding:.5rem 2rem ;
+}
+
+.summaryTitle{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.summaryPriceContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    align-items: center;
+}
+.totalPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalPrice span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.summeryBtn{
+    width: 100%;
+    font-size: 1.5rem;
+    padding: .2rem .3rem;
+    text-transform: capitalize;
+    color: white;
+    background-color: #000;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.summeryBtn:hover,.checkoutBtn:hover{
+    background:none;
+    color: black;
+}
+.priceContainer{
+    position: relative;
+}
+.deleteItem{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: 1rem;
+    bottom: .5rem;
+    font-size: 1.5rem;
+    opacity: .5;
+}
+.deleteItem:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: .3s;
+}
