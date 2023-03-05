@@ -46,6 +46,16 @@ app.use((err,req,res,next)=>{
     })
 })
 
+
+if(process.env.NODE_ENV=="production"){
+    const path=require('path');
+    app.get('/',(req,res)=>{
+        const path=require('path');
+        app.use(express.static(path.join(__dirname,'..','frontend','build')));
+        res.sendFile(path.join(__dirname,'..','frontend','build','index.html'));
+    })
+
+}
 app.listen(process.env.PORT|| 4500,()=>{
     connect();
     console.log(`server has been started on the port ${process.env.PORT}`);

@@ -18,7 +18,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon index"
+    "start": "node index"
   },
   "keywords": []
 }
