@@ -42,6 +42,7 @@
 
 * [Node.js]()
 * [MongoDB]()
+* [JWT]()
 * [React]()
 * [Redux]()
 * [CSS]()
@@ -70,7 +71,7 @@ PORT = 8080
 MONGO_URL = ?
 JWT_SEC = ?
 STRIPE_KEY = ?
-Note: you can feel your information for corresponding variables
+Note: you can fill your information for corresponding variables
 
 
 ## Start 
